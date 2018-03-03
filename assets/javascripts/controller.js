@@ -14,7 +14,7 @@ const Controller = Marionette.Object.extend({
 
     models.fetch({
       success: function (data) {
-        app.view.showChildView('main', new ModelsView({ collection: data }))
+        app.view.showChildView('content', new ModelsView({ collection: data }))
       },
       error: function (err) {
         console.log(err)

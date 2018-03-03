@@ -1,6 +1,6 @@
 {
   "name": "sinatra-backbone",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "server/app.rb",
   "license": "MIT",
   "scripts": {
