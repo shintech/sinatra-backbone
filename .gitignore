@@ -1,0 +1,3 @@
+*.sqlite3.db
+/assets/static
+/node_modules
