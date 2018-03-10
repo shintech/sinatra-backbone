@@ -1,5 +1,5 @@
 Dir['./server/models/*.rb'].each {|file| require file}
-Dir['./server/routes/*/*.rb'].each {|file| require file}
+Dir['./server/routes/*.rb'].each {|file| require file}
 
 get "/" do
   File.read(File.join('assets', 'static', 'index.html'))
